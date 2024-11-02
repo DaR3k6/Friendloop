@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("friendloop-backend")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("friendloop.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0722c51194495fb0af4fd18b18e1ff40140d69ee")]
-[assembly: System.Reflection.AssemblyProductAttribute("friendloop-backend")]
-[assembly: System.Reflection.AssemblyTitleAttribute("friendloop-backend")]
+[assembly: System.Reflection.AssemblyProductAttribute("friendloop.IOC")]
+[assembly: System.Reflection.AssemblyTitleAttribute("friendloop.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
