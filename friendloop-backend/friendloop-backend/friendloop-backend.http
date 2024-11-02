@@ -1,0 +1,6 @@
+@friendloop_backend_HostAddress = http://localhost:5294
+
+GET {{friendloop_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

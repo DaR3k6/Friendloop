@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: adminpassword
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  adminer:
+    image: adminer
+    container_name: adminer-hydra
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DESIGN: "hydra"
+
+volumes:
+  mongo-data:
+    driver: local
